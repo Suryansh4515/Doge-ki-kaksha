@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apni Kaksha | Home</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="assest/courses/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assest/courses/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assest/courses/favicon-16x16.png">
+    <link rel="manifest" href="assest/courses/site.webmanifest">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Doge ki Kaksha</h1>
+    </header>
+    <nav>
+        <a class="menu-btn" href="#">Home</a>
+        <a class="menu-btn" href="#">College review</a>
+        <a class="menu-btn" href="#">Study Material</a>
+        <a class="menu-btn" href="#">Courses</a>
+        <a class="menu-btn flex-align-right" href="#" >Login/SignUp</a>
+    </nav>
+    <main>
+        <section>
+            <h2> <span> Courses </span></h2>
+            <div class="carousel "
+            data-flickity='{ "wrapAround": true }'>
+            <div class="carousel-cell"><video src="./assest/courses/video/video.mp4" poster="./assest/courses/img/2.png" controls></video></div>
+            <div class="carousel-cell"><video src="./assest/courses/video/video.mp4"  poster="./assest/courses/img/3.jpg" controls></video></div>
+            <div class="carousel-cell"><video src="./assest/courses/video/video.mp4"  poster="./assest/courses/img/4.jpg" controls></video></div>
+            <div class="carousel-cell"><video src="./assest/courses/video/video.mp4"  poster="./assest/courses/img/5.jpg" controls></video></div>
+            <div class="carousel-cell"><video src="./assest/courses/video/video.mp4"  poster="./assest/courses/img/6.jpg" controls></video></div>
+            <div class="carousel-cell"><video src="./assest/courses/video/video.mp4"  poster="./assest/courses/img/7.jpg" controls></video></div>
+            </div>
+            
+        
+            
+        </section>
+        <section>
+            <h2><span>College Review</span></h2>
+            <div class="carousel"
+            data-flickity='{ "wrapAround": true }'>
+                <div class="carousel-cell iframe-container"><iframe  src="https://www.youtube.com/embed/1VfqlKtVF7U?list=PLfqMhTWNBTe32tjPy9rlNe4_MLPfC7KRq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="carousel-cell iframe-container"><iframe  src="https://www.youtube.com/embed/zGJ5BlbKfLM?list=PLfqMhTWNBTe32tjPy9rlNe4_MLPfC7KRq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="carousel-cell iframe-container"><iframe  src="https://www.youtube.com/embed/j0biLzzJ2XQ?list=PLfqMhTWNBTe32tjPy9rlNe4_MLPfC7KRq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            </div>
+            
+            
+            
+        </section>
+        <section>
+            <h2><span>Study Material</span></h2>
+            <div class="carousel"
+            data-flickity='{ "wrapAround": true }'>
+                <div class="carousel-cell"><a target="_blank" href="./assest/courses/Notes/9.3.1 Sorting in Arrays _ Bubble & Selection Sort.pdf"><img class="img-res" src="./assest/courses/img/10.png" alt="" ></a></div>
+                <div class="carousel-cell"><a target="_blank" href="./assest/courses/Notes/intro to arduino uno.pdf"><img class="img-res" src="./assest/courses/img/9.jfif" alt="" ></a></div>
+                <div class="carousel-cell"><a target="_blank" href="./assest/courses/Notes/Sensors.pdf"><img class="img-res" src="./assest/courses/img/8.png" alt="" ></a></div>
+            
+            
+        </section>
+        <section>
+            <h2>
+                <span>Our Founder</span>
+            </h2>
+            <img class="prof-img" src="./assest/courses/img/11.jpg" alt="This is Doge Hue Hue Hue" width="33%" height="60%">
+            <h3 class="prof-name">Doge</h3>
+            <div class="sm-handle">
+                <a class="yt" href="https://www.youtube.com/channel/UCwFRGieumnh1MrM5F3D65Tg" target="_blank" rel="noopener noreferrer"> <i class="fa fa-youtube fa-lg yt" aria-hidden="true"></i> You Tube</a>&nbsp;&nbsp; |&nbsp;&nbsp;
+                <a class="link" href="https://www.youtube.com/user/DreamTraps" target="_blank" rel="noopener noreferrer"> <i class="fa fa-linkedin fa-lg link" aria-hidden="true"></i> LinkedIn</a>&nbsp;&nbsp; |&nbsp;&nbsp;
+                <a class="insta" href="https://www.youtube.com/channel/UCoz3Kpu5lv-ALhR4h9bDvcw" target="_blank" rel="noopener noreferrer"> <i class="fa fa-instagram fa-lg insta" aria-hidden="true"></i> Instagram</a>&nbsp;&nbsp; &nbsp;&nbsp;
+            </div>
+            <div class="about">
+                <h4>Don't need introduction me doge me famous everywhere</h4>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <a href="#">FAQ</a>
+        <a href="#">Contact us</a>
+        <a href="#">Terms and Conditions</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Refund Policy</a>
+        <a class="copyright" href="#">&copy; 2020 | Doge ki Kaksha</a>
+    </footer>
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+</html>
